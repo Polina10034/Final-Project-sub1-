@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="includes/style.css">
+    <title>log-in page</title>
+  </head>
+  <body id="login">
+      <main class="container">
+        <div class="row justify-content-center">
+          <div class="col-8">
+            <img src="images/1logo.png" class="rounded mx-auto d-block" alt="logo">
+            <img src="images/user4.png" class="rounded mx-auto d-block userPhoto" alt="user">
+            <form>
+              <div class="form-row">
+                <div class="col-md-12 mb-3">
+                  <label for="validateUserName"></label>
+                  <input type="text" class="form-control form-control-lg border" id="validateUserName" placeholder="Full Name" value="" name="userName" required>
+                </div>
+                <div class="col-md-12 mb-3">
+                  <label for="validateUserPassword"></label>
+                  <input type="password" class="form-control form-control-lg border" id="validateUserPassword" placeholder="Password" value="" name="userName" required>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-outline-primary btn-lg btn-block btn-login border">SING IN</button>
+            </form>
+            <br><h2 class="text-center">OR REGISTER WITH A SICIAL MEDIA ACCOUNT</h2>
+            <div class="col">
+              <a href="#" class="fb btn">
+                <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+               </a>
+              <a href="#" class="twitter btn">
+                <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+              </a>
+              <a href="#" class="google btn"><i class="fa fa-google fa-fw">
+                </i> Login with Google+
+              </a>
+            </div>
+            <br>
+            <h3 class="text-center">dont have an account? <a href="signup.html" class="btn btn-outline-primary btn-login border"> &nbsp; &nbsp; SIGN UP</a></h3> 
+          </div>
+        </div>
+      </main>
+  </body>
+  </html>
